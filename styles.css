@@ -138,9 +138,35 @@ body {
     height: auto;
     display: flex;
     justify-content: center;
-    margin: 30px 20%;
+    margin: -200px 20% -100px;
     scale: 90%;
 }
+
+.dummy-tedasuke {
+    height: 100vh;
+}
+  
+.tedasuke {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: -200px 20% 30px;
+    scale: 90%;
+}
+
+.dummy-odo {
+    height: 100vh;
+  }
+  
+.odo {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: -200px 20% -50px;
+    scale: 90%;
+}
+
+
 
 .dummy-endimg {
     height: 100vh;
