@@ -52,7 +52,7 @@ body {
     height: 500px;
     margin: 450px 10% 0px;
     background-size: contain;
-    background: url(../interview/img/katoshan.PNG) no-repeat;
+    background: url(/img/katoshan.PNG) no-repeat;
 }
 
 
@@ -130,16 +130,33 @@ body {
     align-items: center;
 }
 
-.bunseki {
+.dummy-bunseki {
     height: 100vh;
+  }
+  
+.bunseki {
+    height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 30px 20%;
+    scale: 90%;
+}
+
+.dummy-endimg {
+    height: 100vh;
+  }
+  
+.endimg {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 30px 20%;
+    z-index: -2;
 }
 
 .static-image,
 .animated-gif {
-    width: 90%;
+    width: 100%;
     height: auto;
     position: absolute;
 }
@@ -196,7 +213,7 @@ body {
     width: 90%;
     color: #ffffff;
     text-align: center;
-    margin: 500px auto;
+    margin: -850px auto;
     font-size: 20px;
     font-family: "Zen Kaku Gothic New", serif;
     font-weight: 500;
@@ -217,9 +234,7 @@ body {
     }    
 }
 @media screen and (max-width: 480px) {
-    .topback {   
-        background-image: url(../interview/img/haikei_sp.PNG);
-    }
+    
     .prologue {
     flex-direction: column;
     }
